@@ -10,7 +10,6 @@
 
 @interface JPSearchBar : UISearchBar <UISearchBarDelegate>{
     
-// pls dont use private api 
 @private
     NSMutableArray  *_searchArray;
     UIControl   *_searchView;
