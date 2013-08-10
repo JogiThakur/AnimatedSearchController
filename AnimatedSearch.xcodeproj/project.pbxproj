@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D411F25415566D9B008C7194 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D411F25315566D9B008C7194 /* UIKit.framework */; };
+		D411F25615566D9B008C7194 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D411F25515566D9B008C7194 /* Foundation.framework */; };
+		D411F25815566D9B008C7194 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D411F25715566D9B008C7194 /* CoreGraphics.framework */; };
+		D411F25E15566D9B008C7194 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D411F25C15566D9B008C7194 /* InfoPlist.strings */; };
+		D411F26015566D9B008C7194 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D411F25F15566D9B008C7194 /* main.m */; };
+		D411F26715566D9B008C7194 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D411F26615566D9B008C7194 /* ViewController.m */; };
+		D4510D991699D4A300640F0B /* JPsearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D4510D981699D4A300640F0B /* JPsearchBar.m */; };
+		D4510D9B1699D6DF00640F0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4510D9A1699D6DF00640F0B /* AppDelegate.m */; };
+		D4510D9D1699D7E000640F0B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4510D9C1699D7E000640F0B /* MainStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D411F24F15566D9B008C7194 /* AnimatedSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D411F25315566D9B008C7194 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D411F25515566D9B008C7194 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D411F25715566D9B008C7194 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D411F25B15566D9B008C7194 /* AnimatedSearch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnimatedSearch-Info.plist"; sourceTree = "<group>"; };
+		D411F25D15566D9B008C7194 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D411F25F15566D9B008C7194 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D411F26115566D9B008C7194 /* AnimatedSearch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnimatedSearch-Prefix.pch"; sourceTree = "<group>"; };
+		D411F26215566D9B008C7194 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D411F26515566D9B008C7194 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D411F26615566D9B008C7194 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D4510D971699D4A300640F0B /* JPsearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPsearchBar.h; sourceTree = "<group>"; };
+		D4510D981699D4A300640F0B /* JPsearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPsearchBar.m; sourceTree = "<group>"; };
+		D4510D9A1699D6DF00640F0B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D4510D9C1699D7E000640F0B /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D411F24C15566D9B008C7194 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D411F25415566D9B008C7194 /* UIKit.framework in Frameworks */,
+				D411F25615566D9B008C7194 /* Foundation.framework in Frameworks */,
+				D411F25815566D9B008C7194 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D411F24415566D9B008C7194 = {
+			isa = PBXGroup;
+			children = (
+				D4510D951699D47700640F0B /* JPSearchBar */,
+				D411F25915566D9B008C7194 /* AnimatedSearch */,
+				D411F25215566D9B008C7194 /* Frameworks */,
+				D411F25015566D9B008C7194 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D411F25015566D9B008C7194 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D411F24F15566D9B008C7194 /* AnimatedSearch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D411F25215566D9B008C7194 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D411F25315566D9B008C7194 /* UIKit.framework */,
+				D411F25515566D9B008C7194 /* Foundation.framework */,
+				D411F25715566D9B008C7194 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D411F25915566D9B008C7194 /* AnimatedSearch */ = {
+			isa = PBXGroup;
+			children = (
+				D4510D9A1699D6DF00640F0B /* AppDelegate.m */,
+				D411F26215566D9B008C7194 /* AppDelegate.h */,
+				D4510D9C1699D7E000640F0B /* MainStoryboard.storyboard */,
+				D411F26515566D9B008C7194 /* ViewController.h */,
+				D411F26615566D9B008C7194 /* ViewController.m */,
+				D411F25A15566D9B008C7194 /* Supporting Files */,
+			);
+			path = AnimatedSearch;
+			sourceTree = "<group>";
+		};
+		D411F25A15566D9B008C7194 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D411F25B15566D9B008C7194 /* AnimatedSearch-Info.plist */,
+				D411F25C15566D9B008C7194 /* InfoPlist.strings */,
+				D411F25F15566D9B008C7194 /* main.m */,
+				D411F26115566D9B008C7194 /* AnimatedSearch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4510D951699D47700640F0B /* JPSearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				D4510D971699D4A300640F0B /* JPsearchBar.h */,
+				D4510D981699D4A300640F0B /* JPsearchBar.m */,
+			);
+			path = JPSearchBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D411F24E15566D9B008C7194 /* AnimatedSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D411F26D15566D9B008C7194 /* Build configuration list for PBXNativeTarget "AnimatedSearch" */;
+			buildPhases = (
+				D411F24B15566D9B008C7194 /* Sources */,
+				D411F24C15566D9B008C7194 /* Frameworks */,
+				D411F24D15566D9B008C7194 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimatedSearch;
+			productName = AnimatedSearch;
+			productReference = D411F24F15566D9B008C7194 /* AnimatedSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D411F24615566D9B008C7194 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "devil.at.work.in.japan@gmail.com";
+			};
+			buildConfigurationList = D411F24915566D9B008C7194 /* Build configuration list for PBXProject "AnimatedSearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D411F24415566D9B008C7194;
+			productRefGroup = D411F25015566D9B008C7194 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D411F24E15566D9B008C7194 /* AnimatedSearch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D411F24D15566D9B008C7194 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D411F25E15566D9B008C7194 /* InfoPlist.strings in Resources */,
+				D4510D9D1699D7E000640F0B /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D411F24B15566D9B008C7194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D411F26015566D9B008C7194 /* main.m in Sources */,
+				D411F26715566D9B008C7194 /* ViewController.m in Sources */,
+				D4510D991699D4A300640F0B /* JPsearchBar.m in Sources */,
+				D4510D9B1699D6DF00640F0B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D411F25C15566D9B008C7194 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D411F25D15566D9B008C7194 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D411F26B15566D9B008C7194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D411F26C15566D9B008C7194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D411F26E15566D9B008C7194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnimatedSearch/AnimatedSearch-Prefix.pch";
+				INFOPLIST_FILE = "AnimatedSearch/AnimatedSearch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D411F26F15566D9B008C7194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnimatedSearch/AnimatedSearch-Prefix.pch";
+				INFOPLIST_FILE = "AnimatedSearch/AnimatedSearch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D411F24915566D9B008C7194 /* Build configuration list for PBXProject "AnimatedSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D411F26B15566D9B008C7194 /* Debug */,
+				D411F26C15566D9B008C7194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D411F26D15566D9B008C7194 /* Build configuration list for PBXNativeTarget "AnimatedSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D411F26E15566D9B008C7194 /* Debug */,
+				D411F26F15566D9B008C7194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D411F24615566D9B008C7194 /* Project object */;
+}
